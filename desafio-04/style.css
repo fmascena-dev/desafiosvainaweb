@@ -149,6 +149,8 @@ main .produtos h3 {
 main .produtos div {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
 }
 @media (min-width: 350px) and (max-width: 800px) {
   main .produtos div {
