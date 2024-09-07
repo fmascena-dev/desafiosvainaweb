@@ -11,13 +11,23 @@ body {
 
 header {
     height: 350px;
-    background: url(images/BACKGROUND.svg);
-    background-size: auto 100%;
+    width: auto;
+    overflow: hidden;
     
     @media (min-width:350px) and (max-width:800px) {
         background: none;
         margin-top: 30px;
+    }
 
+    .background {
+        max-width: 100%;
+        object-fit: cover;
+        display: block;
+        flex: 1 1 auto;
+
+        @media (min-width:350px) and (max-width:800px) {
+            display: none;
+        }
     }
     
     nav {
