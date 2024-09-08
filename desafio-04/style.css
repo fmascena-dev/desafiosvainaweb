@@ -14,18 +14,16 @@ header {
   width: auto;
   overflow: hidden;
 }
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 960px) {
   header {
-    background: none;
     margin-top: 30px;
+    height: 450px;
   }
 }
 header .background img {
   width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
 }
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 960px) {
   header .background img {
     display: none;
   }
@@ -40,7 +38,7 @@ header nav {
   padding: 0 5px;
   flex-direction: row;
 }
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 960px) {
   header nav {
     flex-direction: column;
     margin-top: 30px;
@@ -52,7 +50,7 @@ header ul {
   list-style: none;
   flex-direction: row;
 }
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 960px) {
   header ul {
     flex-direction: column;
     align-items: center;
@@ -64,10 +62,10 @@ header li {
   padding: 10px;
   font-size: 20px;
 }
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 960px) {
   header li {
     padding: 25px 0;
-    height: 50px;
+    height: 70px;
   }
 }
 
@@ -77,8 +75,9 @@ main {
   align-items: center;
   justify-content: space-evenly;
 }
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 960px) {
   main {
+    display: flex;
     justify-content: center;
   }
 }
@@ -89,7 +88,7 @@ main .apresentacao {
   width: 80%;
   margin-top: 5rem;
 }
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 960px) {
   main .apresentacao {
     flex-direction: column;
     padding: 20px 0;
@@ -101,7 +100,7 @@ main .descricao {
   font-size: 24px;
   padding: 0;
 }
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 960px) {
   main .descricao {
     padding: 20px 0;
     width: 100%;
@@ -120,12 +119,12 @@ main .descricao p {
   letter-spacing: 2px;
   font-weight: 300;
 }
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 960px) {
   main .descricao p {
     padding: 20px 0;
     line-height: 2rem;
     width: 100%;
-    margin-top: 30px;
+    margin-bottom: 0px;
   }
 }
 main .produtos {
@@ -135,9 +134,10 @@ main .produtos {
   width: 80%;
   margin: 70px 0 30px 0;
 }
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 960px) {
   main .produtos {
     flex-direction: column;
+    margin: 15px 0;
   }
 }
 main .produtos h3 {
@@ -146,6 +146,11 @@ main .produtos h3 {
   font-weight: 400;
   text-align: center;
 }
+@media (min-width: 300px) and (max-width: 960px) {
+  main .produtos h3 {
+    width: 100%;
+  }
+}
 main .produtos div {
   display: flex;
   justify-content: space-between;
@@ -153,9 +158,11 @@ main .produtos div {
   gap: 3rem;
   flex-wrap: wrap;
 }
-@media (min-width: 300px) and (max-width: 800px) {
+@media (min-width: 300px) and (max-width: 960px) {
   main .produtos div {
+    display: flex;
     flex-direction: row;
     margin-top: 50px;
+    width: 55%;
   }
 }/*# sourceMappingURL=style.css.map */
