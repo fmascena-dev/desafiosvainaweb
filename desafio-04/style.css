@@ -21,11 +21,9 @@ header {
   }
 }
 header .background {
-  max-width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  display: block;
-  flex: 1 1 auto;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 @media (min-width: 350px) and (max-width: 800px) {
   header .background {
@@ -68,7 +66,8 @@ header li {
 }
 @media (min-width: 350px) and (max-width: 800px) {
   header li {
-    padding: 20px 0;
+    padding: 25px 0;
+    height: 50px;
   }
 }
 
@@ -105,6 +104,7 @@ main .descricao {
 @media (min-width: 350px) and (max-width: 800px) {
   main .descricao {
     padding: 20px 0;
+    width: 100%;
   }
 }
 main .descricao img {
@@ -124,6 +124,8 @@ main .descricao p {
   main .descricao p {
     padding: 20px 0;
     line-height: 2rem;
+    width: 100%;
+    margin-top: 30px;
   }
 }
 main .produtos {
@@ -131,7 +133,7 @@ main .produtos {
   justify-content: space-between;
   align-items: center;
   width: 80%;
-  margin: 70px 0 30px;
+  margin: 70px 0 30px 0;
 }
 @media (min-width: 350px) and (max-width: 800px) {
   main .produtos {
