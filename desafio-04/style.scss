@@ -46,6 +46,7 @@ header {
     height: 67px;
     padding: 0 5px;
     flex-direction: row;
+    margin-left: 15px;
 
     @media (min-width: 300px) and (max-width: 949px) {
       flex-direction: column;
@@ -63,6 +64,7 @@ header {
     justify-content: space-around;
     list-style: none;
     flex-direction: row;
+    margin-right: 15px;
 
     @media (min-width: 300px) and (max-width: 949px) {
       flex-direction: column;
