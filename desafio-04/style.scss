@@ -10,19 +10,29 @@ body {
 }
 
 header {
-  height: 350px;
+  height: 400px;
   width: auto;
   overflow: hidden;
 
-  @media (min-width: 300px) and (max-width: 950px) {
+  @media (min-width: 300px) and (max-width: 949px) {
+    margin-top: 30px;
+    height: 450px;
+  }
+
+  @media (min-width: 950px) and (max-width: 1110px) {
     margin-top: 30px;
     height: 450px;
   }
 
   .background img {
     width: 100%;
+    height: auto;
 
-    @media (min-width: 300px) and (max-width: 950px) {
+    @media (min-width: 300px) and (max-width: 949px) {
+      display: none;
+    }
+
+    @media (min-width: 950px) and (max-width: 1110px) {
       display: none;
     }
   }
@@ -37,7 +47,12 @@ header {
     padding: 0 5px;
     flex-direction: row;
 
-    @media (min-width: 300px) and (max-width: 950px) {
+    @media (min-width: 300px) and (max-width: 949px) {
+      flex-direction: column;
+      margin-top: 30px;
+    }
+
+    @media (min-width: 950px) and (max-width: 1110px) {
       flex-direction: column;
       margin-top: 30px;
     }
@@ -49,7 +64,12 @@ header {
     list-style: none;
     flex-direction: row;
 
-    @media (min-width: 300px) and (max-width: 950px) {
+    @media (min-width: 300px) and (max-width: 949px) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    @media (min-width: 950px) and (max-width: 1110px) {
       flex-direction: column;
       align-items: center;
     }
@@ -61,7 +81,11 @@ header {
     padding: 10px;
     font-size: 20px;
 
-    @media (min-width: 300px) and (max-width: 950px) {
+    @media (min-width: 300px) and (max-width: 949px) {
+      padding: 25px 0;
+      height: 70px;
+    }
+    @media (min-width: 950px) and (max-width: 1100px) {
       padding: 25px 0;
       height: 70px;
     }
@@ -74,7 +98,12 @@ main {
   align-items: center;
   justify-content: space-evenly;
 
-  @media (min-width: 300px) and (max-width: 950px) {
+  @media (min-width: 300px) and (max-width: 949px) {
+    display: flex;
+    justify-content: center;
+  }
+
+  @media (min-width: 950px) and (max-width: 1110px) {
     display: flex;
     justify-content: center;
   }
@@ -84,11 +113,16 @@ main {
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    margin-top: 5rem;
+    margin-top: 2rem;
 
-    @media (min-width: 300px) and (max-width: 950px) {
+    @media (min-width: 300px) and (max-width: 949px) {
       flex-direction: column;
-      padding: 20px 0;
+      margin-top: 1rem;
+    }
+
+    @media (min-width: 950px) and (max-width: 1100px) {
+      flex-direction: column;
+      margin-top: 1rem;
     }
   }
 
@@ -98,7 +132,12 @@ main {
     font-size: 24px;
     padding: 0;
 
-    @media (min-width: 300px) and (max-width: 950px) {
+    @media (min-width: 300px) and (max-width: 949px) {
+      padding: 20px 0;
+      width: 100%;
+    }
+
+    @media (min-width: 950px) and (max-width: 1110px) {
       padding: 20px 0;
       width: 100%;
     }
@@ -118,7 +157,14 @@ main {
       letter-spacing: 2px;
       font-weight: 300;
 
-      @media (min-width: 300px) and (max-width: 950px) {
+      @media (min-width: 300px) and (max-width: 949px) {
+        padding: 20px 0;
+        line-height: 2rem;
+        width: 100%;
+        margin-bottom: 0px;
+      }
+
+      @media (min-width: 950px) and (max-width: 1110px) {
         padding: 20px 0;
         line-height: 2rem;
         width: 100%;
@@ -129,13 +175,20 @@ main {
 
   .produtos {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 80%;
     margin: 70px 0 30px 0;
 
-    @media (min-width: 300px) and (max-width: 950px) {
+    @media (min-width: 300px) and (max-width: 949px) {
       flex-direction: column;
+      width: auto;
+      margin: 15px 0;
+    }
+
+    @media (min-width: 950px) and (max-width: 1110px) {
+      flex-direction: column;
+      width: auto;
       margin: 15px 0;
     }
 
@@ -145,19 +198,27 @@ main {
       font-weight: 400;
       text-align: center;
 
-      @media (min-width: 300px) and (max-width: 950px) {
+      @media (min-width: 300px) and (max-width: 949px) {
+        width: 100%;
+      }
+      @media (min-width: 950px) and (max-width: 1110px) {
         width: 100%;
       }
     }
 
-    div {
+    figure {
       display: flex;
       justify-content: space-between;
       align-items: center;
       gap: 3rem;
       flex-wrap: wrap;
 
-      @media (min-width: 300px) and (max-width: 950px) {
+      @media (min-width: 300px) and (max-width: 949px) {
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+      }
+      @media (min-width: 950px) and (max-width: 1110px) {
         display: flex;
         flex-direction: row;
         margin-top: 50px;
