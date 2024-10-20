@@ -2,7 +2,7 @@
 
 *Este projeto **React** simula a troca de uma imagem ao clicar em um botão, utilizando um conceito simples de estado. A lâmpada de Aladim é exibida, e ao clicar no botão, a imagem alterna entre a lâmpada simples e uma lâmpada mágica com um mago saindo dela. O layout é responsivo e utiliza SCSS para estilização.*
 
-**Estrutura do Projeto**
+### Estrutura do Projeto
 
 *O projeto contém os seguintes componentes e arquivos principais:*
 
@@ -32,15 +32,15 @@
 - **button:** *Estiliza o botão com cor de fundo, borda arredondada e estados de hover.*
 - **Responsividade:** *Inclui media queries para tablets (max-width: 768px) e celulares (max-width: 480px), ajustando tamanhos de fonte, largura da imagem e cores do botão.*
 
-#### Instalação e Execução
+### Instalação e Execução
 
 **Pré-requisitos:**
 
 - *Node.js instalado*
 - *Gerenciador de pacotes npm ou yarn*
 
-Passos para rodar o projeto:
--
+### Passos para rodar o projeto:
+
 - **Clone o repositório:**
 
 bash
