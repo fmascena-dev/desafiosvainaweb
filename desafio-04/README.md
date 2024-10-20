@@ -1,6 +1,6 @@
 ## Lâmpada de Aladim - Projeto em React
 
-*Este projeto React simula a troca de uma imagem ao clicar em um botão, utilizando um conceito simples de estado. A lâmpada de Aladim é exibida, e ao clicar no botão, a imagem alterna entre a lâmpada simples e uma lâmpada mágica com um mago saindo dela. O layout é responsivo e utiliza SCSS para estilização.*
+*Este projeto **React** simula a troca de uma imagem ao clicar em um botão, utilizando um conceito simples de estado. A lâmpada de Aladim é exibida, e ao clicar no botão, a imagem alterna entre a lâmpada simples e uma lâmpada mágica com um mago saindo dela. O layout é responsivo e utiliza SCSS para estilização.*
 
 **Estrutura do Projeto**
 
@@ -45,7 +45,7 @@ Passos para rodar o projeto:
 
 bash
 ```
-git clone https://github.com/seuusuario/seurepositorio.git
+git clone https://github.com/fmascena-dev/desafiosvainaweb.git
 ```
 
 - **Acesse o diretório do projeto:**
@@ -88,6 +88,8 @@ http://localhost:5173
 - **Vite:** *Ferramenta de build rápida para desenvolvimento web.*
 
 - **SCSS:** *Extensão do CSS com funcionalidades adicionais como variáveis e aninhamento de regras.*
+
+##
 
 **Autor:**
 ###### Felipe Mascena
