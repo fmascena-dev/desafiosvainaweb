@@ -19,17 +19,17 @@ main {
   }
 
   img {
-    border: 2px solid greenyellow;
     margin-bottom: 50px;
   }
 
   button {
     background-color: #007bff;
     color: #ffffff;
-    padding: 10px 20px;
+    // padding: 10px 20px;
     border-radius: 30px;
     border: none;
-    width: 350px;
+    width: 60vh;
+    height: 10vh;
     margin-bottom: 50px;
     font-size: 1.5rem;
     cursor: pointer;
@@ -50,6 +50,8 @@ main {
 
     button {
       background-color: #b74794;
+      width: 40%;
+      height: 10vh;
 
       &:hover {
         background-color: #642b52;
@@ -68,6 +70,8 @@ main {
 
     button {
       background-color: #b74794;
+      width: 60%;
+      height: 10vh;
 
       &:hover {
         background-color: #642b52;
