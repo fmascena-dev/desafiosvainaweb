@@ -1,0 +1,77 @@
+body {
+  background-image: url(https://github.com/mariaccarolina/TurmaFDV/blob/main/imagens/Imagem%20palacio.png?raw=true);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+
+  h1 {
+    color: #ffffff;
+    font-size: 3rem;
+    margin-bottom: 50px;
+  }
+
+  img {
+    border: 2px solid greenyellow;
+    margin-bottom: 50px;
+  }
+
+  button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    width: 350px;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #1761b1;
+  }
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    button {
+      background-color: #b74794;
+
+      &:hover {
+        background-color: #642b52;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    button {
+      background-color: #b74794;
+
+      &:hover {
+        background-color: #642b52;
+      }
+    }
+  }
+}
