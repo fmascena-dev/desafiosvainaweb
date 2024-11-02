@@ -1,0 +1,23 @@
+header {
+  margin-top: 20px;
+  width: 40%;
+  margin-bottom: 40px;
+  margin-left: 16%;
+}
+
+@media (min-width: 480px) and (max-width: 968px) {
+  header {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 479px) {
+  header {
+    width: 100%;
+    margin-top: 35px;
+    margin-left: 0;
+    text-align: center;
+  }
+}
