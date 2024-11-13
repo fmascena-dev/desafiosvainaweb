@@ -9,6 +9,19 @@ import ellipseVerde from '../../assets/Images/Home/ellipse-green.png';
 import ellipseVermelho from '../../assets/Images/Home/ellipse-red.png';
 import ellipseAmarelo from '../../assets/Images/Home/ellipse-yellow.png';
 import Button from '../Button/Button';
+import {
+  ButtonWrapper,
+  Description,
+  Figure,
+  ImageSection,
+  Main,
+  MainCopo,
+  Section,
+  Subtitle,
+  TextContainer,
+  Thumbnail,
+  Title,
+} from './Home';
 
 export default function Home() {
   const [corAtual, setCorAtual] = useState('verde');
@@ -33,55 +46,55 @@ export default function Home() {
   };
 
   return (
-    <main>
-      <section>
-        <div>
-          <p>Mais que Café</p>
-          <h1>Isso é Starbucks</h1>
-          <p>
+    <Main>
+      <Section>
+        <TextContainer>
+          <Subtitle>Mais que Café</Subtitle>
+          <Title>
+            Isso é <span>Starbucks</span>
+          </Title>
+          <Description>
             A Starbucks oferece uma variedade de cafés de alta qualidade. Alguns
             dos cafés mais populares incluem o Caffè Americano, o Cappuccino, o
             Latte Macchiato e o Espresso. Além disso, a Starbucks oferece
             bebidas quentes e frias, doces diferenciados e sanduíches.
-          </p>
-          <Button />
-        </div>
-      </section>
-      <section>
-        <figure>
-          <img
+          </Description>
+          <ButtonWrapper>
+            <Button />
+          </ButtonWrapper>
+        </TextContainer>
+      </Section>
+      <Section>
+        <Figure>
+          <Thumbnail
             src={copoVerde}
             alt="Copo Verde"
             onClick={() => handleChangeColor('verde')}
           />
-          <img
+          <Thumbnail
             src={copoVermelho}
             alt="Copo Vermelho"
             onClick={() => handleChangeColor('vermelho')}
           />
-          <img
+          <Thumbnail
             src={copoAmarelo}
             alt="Copo Amarelo"
             onClick={() => handleChangeColor('amarelo')}
           />
-        </figure>
-      </section>
-      <section>
-        <div
-          className="image-section"
-          style={{
-            backgroundImage: cores[corAtual].backgroundImage,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-          }}
-        >
-          <img
-            src={cores[corAtual].copo}
-            alt={`Copo ${corAtual}`}
-            className="main-copo"
-          />
-        </div>
-      </section>
-    </main>
+        </Figure>
+      </Section>
+      <ImageSection
+        className="image-section"
+        style={{
+          backgroundImage: cores[corAtual].backgroundImage,
+        }}
+      >
+        <MainCopo
+          src={cores[corAtual].copo}
+          alt={`Copo ${corAtual}`}
+          className="main-copo"
+        />
+      </ImageSection>
+    </Main>
   );
 }

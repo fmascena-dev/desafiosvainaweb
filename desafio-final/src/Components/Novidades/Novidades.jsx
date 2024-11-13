@@ -19,7 +19,7 @@ export default function Novidades() {
           <Titulo>Níveis de torra</Titulo>
           <Paragrafo>
             Qual a torra que prefere? Starbucks® Torra Clara, Torra Média ou
-            Torra Escura? Estas sãos as torras que fazem parte dos níveis de
+            Torra Escura? Estas são as torras que fazem parte dos níveis de
             torra Starbucks®.
           </Paragrafo>
           <Button />
