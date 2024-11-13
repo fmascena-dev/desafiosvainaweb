@@ -1,20 +1,21 @@
 import { Link } from 'react-router-dom';
+import { Lista, Nav, Principal } from './Header';
 
 export default function Header() {
   return (
-    <header className="header">
-      <img src="" alt="logomarca" />
-      <nav>
-        <li>
+    <Principal>
+      <img src="/Images/logomarca.png" alt="logomarca" />
+      <Nav>
+        <Lista>
           <Link to="/">Home</Link>
-        </li>
-        <li>
+        </Lista>
+        <Lista>
           <Link to="/novidades">Novidades</Link>
-        </li>
-        <li>
+        </Lista>
+        <Lista>
           <Link to="/sobre">Sobre</Link>
-        </li>
-      </nav>
-    </header>
+        </Lista>
+      </Nav>
+    </Principal>
   );
 }

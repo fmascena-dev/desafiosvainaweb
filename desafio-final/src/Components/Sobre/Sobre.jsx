@@ -1,9 +1,24 @@
+import loja from '../../assets/Images/sobre.png'
+import Button from '../Button/Button';
+import { Fig, FigCap, Img, Paragrafo, Secao, Span, Titulo } from './SobreStyle';
+
+
 export default function Sobre() {
     return (
-        <section className="sobre">
-            <h2>Sobre</h2>
-            <p>Este é um simples site feito com React, Vite e SASS.</p>
-            <p>Você pode ver o código fonte <a href="https://github.com/felipesantana/desafios-vainaweb">aqui</a>.</p>
-        </section>
-    )
+      <Secao>
+        <Fig>
+          <Img src={loja} alt="foto da Starbucks" />
+          <FigCap>
+            <Span>PREPARAÇÃO</Span>
+            <Titulo>Níveis de torra</Titulo>
+            <Paragrafo>
+              Qual a torra que prefere? Starbucks® Torra Clara, Torra Média ou
+              Torra Escura? Estas sãos as torras que fazem parte dos níveis de
+              torra Starbucks®.
+            </Paragrafo>
+            <Button />
+          </FigCap>
+        </Fig>
+      </Secao>
+    );
 };
