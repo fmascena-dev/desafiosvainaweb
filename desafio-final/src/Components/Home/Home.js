@@ -6,7 +6,6 @@ export const Main = styled.main`
   align-items: center;
   padding: 20px;
   height: auto;
-  border: 1px solid red;
 `;
 
 export const Section = styled.section`
@@ -20,7 +19,9 @@ export const Section = styled.section`
 `;
 
 export const TextContainer = styled.div`
-  max-width: 500px;
+  max-width: 40%;
+  margin-top: 5rem;
+  border: 1px solid red;
 `;
 
 export const Title = styled.h2`
@@ -55,27 +56,30 @@ export const ImageSection = styled.div`
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  position: absolute; /* Permite o posicionamento absoluto */
-  right: 0; /* Cola o contêiner no lado direito */
+  position: absolute;
+  right: 0;
   bottom: 0;
-  transform: translateY(40%);
+  transform: translateY(52%);
 `;
 
 export const MainCopo = styled.img`
   width: 100%;
-  transform: translateY(-15%);
+  transform: translateY(-20%);
 `;
 
 export const Figure = styled.figure`
   display: flex;
   justify-content: center;
   width: 100%;
-  max-width: 400px;
-  margin-top: 20px;
+  margin-top: 5rem;
+  border: 1px solid red;
 `;
 
 export const Thumbnail = styled.img`
-  width: 30%;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   transition: transform 1s ease;
 
