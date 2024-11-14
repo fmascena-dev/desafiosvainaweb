@@ -62,7 +62,7 @@ export const ImageSection = styled.div`
   padding: 9rem 0 0 5rem;
   right: 0;
   bottom: 0;
-  transform: translateY(33%);
+  transform: translateY(36%);
 `;
 
 export const MainCopo = styled.img`
