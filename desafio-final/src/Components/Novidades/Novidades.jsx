@@ -8,7 +8,7 @@ import {
   Titulo,
   Paragrafo,
   ImgGrao
-} from './Novidades';
+} from './NovidadesStyle';
 
 export default function Novidades() {
   return (

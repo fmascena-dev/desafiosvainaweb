@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Header from './Components/Header/Header';
-import Home from './Components/Home/Home';
-import Novidades from './Components/Novidades/Novidades';
-import Sobre from './Components/Sobre/Sobre';
 import { createGlobalStyle } from 'styled-components';
+import Header from './Components/Header/Header.jsx';
+import Home from './Components/Home/Home.jsx';
+import Novidades from './Components/Novidades/Novidades.jsx';
+import Sobre from './Components/Sobre/Sobre.jsx';
 
 export default function App() {
   const GlobalStyle = createGlobalStyle`
@@ -23,7 +23,7 @@ export default function App() {
   return (
     <>
       <BrowserRouter>
-      <GlobalStyle />
+        <GlobalStyle />
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />

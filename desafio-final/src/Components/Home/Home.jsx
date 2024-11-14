@@ -21,7 +21,7 @@ import {
   TextContainer,
   Thumbnail,
   Title,
-} from './Home';
+} from '/src/Components/Home/HomeStyles';
 
 export default function Home() {
   const [corAtual, setCorAtual] = useState('verde');
@@ -66,21 +66,21 @@ export default function Home() {
       </Section>
       <Section>
         <Figure>
-          <Thumbnail
-            src={copoVerde}
-            alt="Copo Verde"
-            onClick={() => handleChangeColor('verde')}
-          />
-          <Thumbnail
-            src={copoVermelho}
-            alt="Copo Vermelho"
-            onClick={() => handleChangeColor('vermelho')}
-          />
-          <Thumbnail
-            src={copoAmarelo}
-            alt="Copo Amarelo"
-            onClick={() => handleChangeColor('amarelo')}
-          />
+              <Thumbnail
+                src={copoVerde}
+                alt="Copo Verde"
+                onClick={() => handleChangeColor('verde')}
+              />
+              <Thumbnail
+                src={copoVermelho}
+                alt="Copo Vermelho"
+                onClick={() => handleChangeColor('vermelho')}
+              />
+              <Thumbnail
+                src={copoAmarelo}
+                alt="Copo Amarelo"
+                onClick={() => handleChangeColor('amarelo')}
+              />
         </Figure>
       </Section>
       <ImageSection

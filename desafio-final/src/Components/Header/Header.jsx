@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Lista, Nav, Principal } from './Header';
+import { Lista, Nav, Principal } from './HeaderStyle';
 
 export default function Header() {
   return (

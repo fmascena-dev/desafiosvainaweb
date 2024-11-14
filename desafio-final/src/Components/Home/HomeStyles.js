@@ -13,20 +13,19 @@ export const Section = styled.section`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1200px;
   padding: 20px;
   box-sizing: border-box;
 `;
 
 export const TextContainer = styled.div`
   max-width: 40%;
-  margin-top: 5rem;
-  border: 1px solid red;
+  margin: 5rem 5rem;
 `;
 
 export const Title = styled.h2`
   font-size: 2.2rem;
   font-weight: normal;
+  color: rgba(30, 50, 50, 1);
 
   span {
     color: #00704a;
@@ -38,11 +37,12 @@ export const Title = styled.h2`
 export const Subtitle = styled.p`
   font-size: 2rem;
   font-weight: 300;
+  color: rgba(30, 50, 50, 1);
 `;
 
 export const Description = styled.p`
   font-size: 1rem;
-  color: #333;
+  color: rgba(30, 50, 50, 1);
   line-height: 1.5;
 `;
 
@@ -59,7 +59,7 @@ export const ImageSection = styled.div`
   position: absolute;
   right: 0;
   bottom: 0;
-  transform: translateY(52%);
+  transform: translateY(75%);
 `;
 
 export const MainCopo = styled.img`
@@ -71,8 +71,8 @@ export const Figure = styled.figure`
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: 5rem;
-  border: 1px solid red;
+  margin-top: 6rem;
+  margin-right: 4rem;
 `;
 
 export const Thumbnail = styled.img`
