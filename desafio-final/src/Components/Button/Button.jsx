@@ -5,7 +5,7 @@ export default function Button() {
     const Button = styled.button`
       background-color: rgba(3, 113, 67, 1);
       color: #FFF;
-      padding: 12px 55px;
+      padding: 15px 35px;
       border-radius: 30px;
       border: none;
       text-align: center;

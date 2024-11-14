@@ -16,7 +16,6 @@ export default function App() {
     body {
       font-family: "Poppins", sans-serif;
       color:rgba(30, 57, 50, 1);
-;
     }
   `;
 

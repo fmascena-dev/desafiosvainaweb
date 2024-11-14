@@ -2,35 +2,34 @@ import styled from 'styled-components';
 
 export const Main = styled.main`
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   padding: 20px;
-  height: auto;
+  height: 100vh;
+  background-color: #f4f4f9;
 `;
 
 export const Section = styled.section`
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
   padding: 20px;
   box-sizing: border-box;
 `;
 
 export const TextContainer = styled.div`
-  max-width: 50%;
-  margin: 2rem 2rem;
-  border: 1px solid red;
+  margin-bottom: 2rem;
 `;
 
 export const Title = styled.h2`
-  font-size: 2.6rem;
+  font-size: 2.8rem;
   font-weight: normal;
   color: rgba(30, 50, 50, 1);
 
   span {
     color: #00704a;
-    font-size: 3.9rem;
+    font-size: 3.8rem;
     font-weight: bold;
   }
 `;
@@ -42,47 +41,43 @@ export const Subtitle = styled.p`
 `;
 
 export const Description = styled.p`
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: rgba(30, 50, 50, 1);
   line-height: 1.5;
 `;
 
 export const ButtonWrapper = styled.div`
-  margin-top: 5px;
+  margin-top: 1.5rem;
 `;
 
 export const ImageSection = styled.div`
   background-image: ${(props) => props.backgroundImage};
   background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  position: absolute;
-  z-index: -1;
-  padding-right: 4rem;
-  right: 0;
-  bottom: 0;
-  transform: translateY(45%);
+  position: relative;
+  width: 45%;
+  height: 84.2vh;
 `;
 
 export const MainCopo = styled.img`
-  width: 100%;
-  transform: translateY(-20%);
+  width: 60%;
+  position: absolute;
+  bottom: 0;
 `;
 
 export const Figure = styled.figure`
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-left: 2rem;
-  border: 1px solid red;
+  margin-top: 2rem;
 `;
 
 export const Thumbnail = styled.img`
-  width: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 30%;
+  margin: 0 1rem;
   cursor: pointer;
   transition: transform 1s ease;
 
