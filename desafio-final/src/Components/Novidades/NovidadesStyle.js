@@ -4,8 +4,6 @@ export const SecaoNovidades = styled.section`
   display: flex;
   align-items: center;
   background: rgba(30, 57, 50, 1);
-  width: 100%;
-  height: 100vh;
   color: #fff;
 `;
 

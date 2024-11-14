@@ -4,7 +4,7 @@ export const Principal = styled.header`
   display: flex;
   justify-content: space-between;
   padding: 1rem 2.5rem;
-  box-shadow: 0 1px 15px -5px rgba(30, 57, 50, 1);
+  box-shadow: 0 1px 10px rgba(30, 57, 50, 0.7);
 `;
 
 export const Nav = styled.nav`
@@ -23,7 +23,7 @@ export const Lista = styled.li`
     text-decoration: none;
 
     &:hover {
-      color: rgba(30, 57, 50, 0.7);
+      color: rgba(3, 113, 67, 1);
       text-decoration: underline;
     }
   }
