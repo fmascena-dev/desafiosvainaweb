@@ -19,7 +19,7 @@ export const Section = styled.section`
 
 export const TextContainer = styled.div`
   max-width: 50%;
-  margin: 2rem 2rem;
+  margin: 2rem 0rem 0rem 2rem;
   border: 1px solid red;
 `;
 
@@ -44,7 +44,7 @@ export const Subtitle = styled.p`
 export const Description = styled.p`
   font-size: 1.2rem;
   color: rgba(30, 50, 50, 1);
-  line-height: 1.5;
+  line-height: 1.5rem;
 `;
 
 export const ButtonWrapper = styled.div`
@@ -59,22 +59,21 @@ export const ImageSection = styled.div`
   align-items: flex-end;
   position: absolute;
   z-index: -1;
-  padding-right: 4rem;
+  padding: 9rem 0 0 8rem;
   right: 0;
   bottom: 0;
-  transform: translateY(45%);
+  transform: translateY(35%);
 `;
 
 export const MainCopo = styled.img`
-  width: 100%;
-  transform: translateY(-20%);
+  width: 90%;
+  transform: translateY(-30%) translateX(-15%);
 `;
 
 export const Figure = styled.figure`
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-left: 2rem;
   border: 1px solid red;
 `;
 
