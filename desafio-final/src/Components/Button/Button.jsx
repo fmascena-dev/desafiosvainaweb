@@ -8,6 +8,7 @@ export default function Button() {
       padding: 15px 35px;
       border-radius: 30px;
       border: none;
+      letter-spacing: 0.1rem;
       text-align: center;
       font-weight: bold;
       margin-top: 15px;
