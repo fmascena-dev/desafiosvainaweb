@@ -5,14 +5,12 @@ export const SecaoNovidades = styled.section`
   align-items: center;
   background: rgba(30, 57, 50, 1);
   color: #fff;
-  /* height: 100vh; */
   padding: 2rem;
 
   /* Responsivo para telas pequenas (celulares) */
   @media (max-width: 768px) {
     flex-direction: column;
     padding: 2rem;
-    height: auto;
   }
 `;
 
@@ -116,7 +114,6 @@ export const ImgGrao = styled.img`
   @media (min-width: 460px) and (max-width: 1024px) {
     width: 60%;
     margin-top: 1rem;
-    margin-bottom: 10rem;
   }
 
   /* Ajuste para celulares */

@@ -22,6 +22,7 @@ import {
   Thumbnail,
   Title,
 } from '/src/Components/Home/HomeStyles';
+import FooterHome from './FooterHome/FooterHome.jsx';
 
 export default function Home() {
   const [corAtual, setCorAtual] = useState('verde');
@@ -46,55 +47,59 @@ export default function Home() {
   };
 
   return (
-    <Main>
-      <Section>
-        <TextContainer>
-          <Subtitle>Mais que Café</Subtitle>
-          <Title>
-            Isso é <span>Starbucks</span>
-          </Title>
-          <Description>
-            A Starbucks oferece uma variedade de cafés de alta qualidade. Alguns
-            dos cafés mais populares incluem o Caffè Americano, o Cappuccino, o
-            Latte Macchiato e o Espresso. Além disso, a Starbucks oferece
-            bebidas quentes e frias, doces diferenciados e sanduíches.
-          </Description>
-          <ButtonWrapper>
-            <Button />
-          </ButtonWrapper>
-        </TextContainer>
-      </Section>
-      <Section>
-        <Figure>
-          <Thumbnail
-            src={copoVerde}
-            alt="Copo Verde"
-            onClick={() => handleChangeColor('verde')}
+    <>
+      <Main>
+        <Section>
+          <TextContainer>
+            <Subtitle>Mais que Café</Subtitle>
+            <Title>
+              Isso é <span>Starbucks</span>
+            </Title>
+            <Description>
+              A Starbucks oferece uma variedade de cafés de alta qualidade.
+              Alguns dos cafés mais populares incluem o Caffè Americano, o
+              Cappuccino, o Latte Macchiato e o Espresso. Além disso, a
+              Starbucks oferece bebidas quentes e frias, doces diferenciados e
+              sanduíches.
+            </Description>
+            <ButtonWrapper>
+              <Button />
+            </ButtonWrapper>
+          </TextContainer>
+        </Section>
+        <Section>
+          <Figure>
+            <Thumbnail
+              src={copoVerde}
+              alt="Copo Verde"
+              onClick={() => handleChangeColor('verde')}
+            />
+            <Thumbnail
+              src={copoVermelho}
+              alt="Copo Vermelho"
+              onClick={() => handleChangeColor('vermelho')}
+            />
+            <Thumbnail
+              src={copoAmarelo}
+              alt="Copo Amarelo"
+              onClick={() => handleChangeColor('amarelo')}
+            />
+          </Figure>
+        </Section>
+        <ImageSection
+          className="image-section"
+          style={{
+            backgroundImage: cores[corAtual].backgroundImage,
+          }}
+        >
+          <MainCopo
+            src={cores[corAtual].copo}
+            alt={`Copo ${corAtual}`}
+            className="main-copo"
           />
-          <Thumbnail
-            src={copoVermelho}
-            alt="Copo Vermelho"
-            onClick={() => handleChangeColor('vermelho')}
-          />
-          <Thumbnail
-            src={copoAmarelo}
-            alt="Copo Amarelo"
-            onClick={() => handleChangeColor('amarelo')}
-          />
-        </Figure>
-      </Section>
-      <ImageSection
-        className="image-section"
-        style={{
-          backgroundImage: cores[corAtual].backgroundImage,
-        }}
-      >
-        <MainCopo
-          src={cores[corAtual].copo}
-          alt={`Copo ${corAtual}`}
-          className="main-copo"
-        />
-      </ImageSection>
-    </Main>
+        </ImageSection>
+      </Main>
+      <FooterHome />
+    </>
   );
 }

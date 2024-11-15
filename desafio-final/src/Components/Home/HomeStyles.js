@@ -111,6 +111,7 @@ export const Description = styled.p`
   @media (max-width: 600px) {
     font-size: 1rem;
     line-height: 1.4;
+    align-items: center;
   }
 
   /* Tablet */
@@ -140,7 +141,7 @@ export const ImageSection = styled.div`
   justify-content: center;
   align-items: flex-end;
   position: absolute;
-  z-index: -10;
+  z-index: -100;
   padding: 9.2rem 0 0.2rem 5rem;
   right: 0;
   bottom: 0;
