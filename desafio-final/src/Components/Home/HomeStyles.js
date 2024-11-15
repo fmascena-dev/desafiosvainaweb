@@ -144,18 +144,18 @@ export const ImageSection = styled.div`
   padding: 9rem 0 0 5rem;
   right: 0;
   bottom: 0;
-  transform: translateY(36%);
+  transform: translateY(42%);
 
   /* Celular */
   @media (max-width: 600px) {
     padding: 6rem 0 0 2rem;
-    transform: translateY(20%);
+    transform: translateY(115%);
   }
 
   /* Tablet */
   @media (min-width: 601px) and (max-width: 900px) {
-    padding: 7rem 0 0 3rem;
-    transform: translateY(30%);
+    padding: 4rem 0 0 3rem;
+    transform: translateY(110%);
   }
 `;
 
@@ -171,8 +171,8 @@ export const MainCopo = styled.img`
 
   /* Tablet */
   @media (min-width: 601px) and (max-width: 900px) {
-    width: 90%;
-    transform: translateY(-33%) translateX(-12%);
+    width: 60%;
+    transform: translateY(-25%) translateX(-12%);
   }
 `;
 
