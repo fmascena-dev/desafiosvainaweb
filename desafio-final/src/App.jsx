@@ -4,6 +4,7 @@ import Header from './Components/Header/Header.jsx';
 import Home from './Components/Home/Home.jsx';
 import Novidades from './Components/Novidades/Novidades.jsx';
 import Sobre from './Components/Sobre/Sobre.jsx';
+import Footer from './Components/Footer/Footer.jsx';
 
 export default function App() {
   const GlobalStyle = createGlobalStyle`
@@ -29,6 +30,7 @@ export default function App() {
           <Route path="/novidades" element={<Novidades />} />
           <Route path="/sobre" element={<Sobre />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );

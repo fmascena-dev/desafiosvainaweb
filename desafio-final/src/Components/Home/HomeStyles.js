@@ -140,11 +140,11 @@ export const ImageSection = styled.div`
   justify-content: center;
   align-items: flex-end;
   position: absolute;
-  z-index: -1;
-  padding: 9rem 0 0 5rem;
+  z-index: -10;
+  padding: 9.2rem 0 0.2rem 5rem;
   right: 0;
   bottom: 0;
-  transform: translateY(42%);
+  transform: translateY(35%);
 
   /* Celular */
   @media (max-width: 600px) {

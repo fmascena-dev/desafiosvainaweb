@@ -4,6 +4,7 @@ export const Principal = styled.header`
   display: flex;
   justify-content: space-between;
   padding: 1rem 2.5rem;
+  background-color: #FFFFFF;
   box-shadow: 0 1px 10px rgba(30, 57, 50, 0.7);
 
   /* Responsivo para celular */

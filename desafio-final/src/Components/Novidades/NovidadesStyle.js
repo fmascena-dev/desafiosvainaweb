@@ -5,6 +5,7 @@ export const SecaoNovidades = styled.section`
   align-items: center;
   background: rgba(30, 57, 50, 1);
   color: #fff;
+  /* height: 100vh; */
   padding: 2rem;
 
   /* Responsivo para telas pequenas (celulares) */
