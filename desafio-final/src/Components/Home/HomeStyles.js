@@ -154,7 +154,7 @@ export const ImageSection = styled.div`
 
   /* Tablet */
   @media (min-width: 601px) and (max-width: 900px) {
-    padding: 4rem 0 0 3rem;
+    padding: 4rem 0 0 0rem;
     transform: translateY(110%);
   }
 `;
