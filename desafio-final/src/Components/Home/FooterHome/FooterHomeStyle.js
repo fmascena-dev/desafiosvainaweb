@@ -4,7 +4,6 @@ export const Rodape = styled.footer`
   display: flex;
   z-index: 1;
   width: 100%;
-  /* box-shadow: 0 1px 10px rgba(30, 57, 50, 0.7); */
 
   @media (min-width: 250px) and (max-width: 459px) {
     position: relative;
@@ -49,7 +48,7 @@ export const Text = styled.p`
   a {
     color: rgba(30, 110, 50, 1);
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: bold;
 
     &:hover {
@@ -64,7 +63,7 @@ export const Text = styled.p`
     text-align: center;
 
     a {
-      font-size: 1.6rem;
+      font-size: 1rem;
     }
   }
 

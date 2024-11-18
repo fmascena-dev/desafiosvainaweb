@@ -39,7 +39,7 @@ export const Text = styled.p`
   a {
     color: rgba(30, 110, 50, 1);
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: bold;
 
     &:hover {
@@ -54,7 +54,7 @@ export const Text = styled.p`
     text-align: center;
 
     a {
-      font-size: 1.6rem;
+      font-size: 1.4rem;
     }
   }
 
