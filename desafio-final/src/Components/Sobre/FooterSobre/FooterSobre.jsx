@@ -27,17 +27,23 @@ export default function FooterSobre() {
         <SocialMedia>
           <UlMedia>
             <LiMedia>
-              <a href="">
+              <a
+                href="https://www.facebook.com/felipe.mascena17"
+                target="_blank"
+              >
                 <FaFacebook />
               </a>
             </LiMedia>
             <LiMedia>
-              <a href="">
+              <a
+                href="https://www.linkedin.com/in/felipe-mascena"
+                target="_blank"
+              >
                 <FaLinkedin />
               </a>
             </LiMedia>
             <LiMedia>
-              <a href="">
+              <a href="https://www.instagram.com/f_mascena.dev" target="_blank">
                 <FaInstagram />
               </a>
             </LiMedia>
